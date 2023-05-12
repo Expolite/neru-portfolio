@@ -311,7 +311,7 @@ body {
     padding: 30px;     /* vertival, horizontal */
 }
 
-#section_3 h2 {
+#section_3 h1 {
     color: #ffffff;
 }
 
@@ -464,6 +464,16 @@ body {
 
 
 
+.bring_down_name {
+    display: none;
+}
+
+
+
+
+
+
+
 
 
 
@@ -512,6 +522,18 @@ body {
 
 }
 
+
+
+
+
+
+
+
+@media only screen and (max-width: 466px) {
+    .bring_down_name {
+        display: block;
+    }
+}
 
 
 
