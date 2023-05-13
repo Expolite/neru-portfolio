@@ -16,10 +16,18 @@ html {
 
 
 @font-face {
-    src: url(fonts/Montserrat/static/Montserrat-Light.ttf);
-    font-family: Montserrat;
-    /*src: url(fonts/Bruno-Ace_SC/BrunoAceSC-Regular.ttf);
-    font-family: BrunoAceSC;*/
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat/static/Montserrat-Light.ttf");
+}
+
+@font-face {
+    font-family: "ShareTechMono";
+    src: url("fonts/ShareTechMono/ShareTechMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: "UbuntuMono";
+    src: url("fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf");
 }
 
 
@@ -48,6 +56,17 @@ body {
 
 
 
+.myContacts a {
+    font-family: "UbuntuMono"; 
+    font-size: 18px;
+    padding: 5px;
+}
+
+
+
+
+
+
 
 
 
@@ -69,7 +88,7 @@ body {
 
 #section_1 h1 {
     color: #38d1ef;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 40px;
 
     position: relative;
@@ -86,12 +105,12 @@ body {
 
 #section_1 h5 {
     color: #38d1ef;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
 }
 
 #section_1 p {
     color: #ffffff;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 18px;
 }
 
